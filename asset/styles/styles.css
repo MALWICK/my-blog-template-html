@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  background-color: hsl(0, 0%, 100%);
+  background-color: #ffffff;
   width: 100%;
   height: 185vh;
 }
@@ -29,22 +29,4 @@ span {
 #p1 {
   text-align: center;
   font-size: 20px;
-}
-
-.pho1 {
-  width: 900px;
-  height: 289px;
-}
-
-.walk {
-  width: 900px;
-  height: 280px;
-}
-
-.vert {
-  display: block;
-}
-
-.container {
-  display: grid;
 }
