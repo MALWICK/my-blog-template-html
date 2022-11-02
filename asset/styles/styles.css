@@ -1,14 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Verdana, Tahoma, sans-serif;
-  background-color: #6c6363;
-  margin-left: 10%;
-  margin-right: 10%;
+  background-color: #fbf6f6;
+  padding: -6px;
+  margin-left: 12%;
+  margin-right: 14%;
 }
 
 .container {
   background-color: #fff;
-  width: 100%;
-  height: 185vh;
+  width: 95%;
+  height: 119vh;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 span {
@@ -24,6 +31,7 @@ span {
 .main-heading {
   text-align: center;
   font-size: 45px;
+  margin-top: 5%;
 }
 
 #p1 {
@@ -32,24 +40,146 @@ span {
 }
 
 .pho1 {
-  width: 900px;
-  height: 289px;
+  width: 58.4rem;
+  height: 18.5rem;
 }
 
 .walk {
-  width: 900px;
-  height: 280px;
+  width: 58.4rem;
+  height: 18.5rem;
 }
 
 .b1-fig {
-  width: 900px;
-  height: 270px;
-  background-color: #6c6363;
+  width: 58.3rem;
+  height: 17.6rem;
+  background-color: rgb(222, 214, 214);
   margin-top: -4px;
+  border-radius: 1%;
+  border: 1px solid #dcd6d6;
 }
 
 .pop {
   width: 54px;
   height: 54px;
+}
+
+.eyes {
+  width: 430px;
+  height: 280px;
+}
+
+.vert {
   display: grid;
+  padding-bottom: 40%;
+}
+
+.av {
+  background-color: #fffffe;
+  padding: 1px;
+  margin-top: 20px;
+  width: 26.7rem;
+  border: 1px solid #cfcaca;
+  border-radius: 2%;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  padding: auto;
+}
+
+.pop1 {
+  text-align: left;
+  font-size: large;
+  background-color: #cbc3c3;
+  padding-left: 2%;
+}
+
+hr {
+  color: #e9dddd;
+}
+
+.namy {
+  width: 26.7rem;
+  height: 10.6rem;
+  background-color: #cbc2c2;
+  margin-top: -4px;
+  border-radius: 1%;
+  border: 1px solid #f3edf3;
+}
+
+.tgbtn {
+  color: #1b1a19;
+  background-color: white;
+  text-decoration: #1b1a19;
+}
+
+.tag {
+  background-color: #fffffe;
+  width: 26.7rem;
+  height: 12.6rem;
+  border: 1px solid #cfcaca;
+  border-radius: 2%;
+  margin-top: 10px;
+}
+
+.taghh {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  background-color: #dad1d1;
+  padding-left: 2%;
+}
+
+.hori {
+  float: left;
+}
+
+header {
+  font-size: 1.4rem;
+  padding-left: 1%;
+}
+
+.btn1 {
+  background-color: #dad1d1;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  padding: 15px 32px;
+}
+
+.pt {
+  font-size: 10px;
+  text-align: right;
+}
+
+h3 {
+  padding-left: 1%;
+}
+
+.hd1btn {
+  padding-left: 2%;
+}
+
+.hd1btn :hover {
+  background-color: #191818;
+  color: #dad1d1;
+  transition: 1s;
+}
+
+.pp :hover {
+  background-color: #cbc2c2;
+  color: #191818;
+  transition: 1s;
+}
+
+.senam {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bt {
+  padding-right: 2%;
 }
