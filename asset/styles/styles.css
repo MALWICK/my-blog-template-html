@@ -54,6 +54,15 @@ span {
   border: 1px solid #dcd6d6;
 }
 
+.b1-fig2 {
+  width: 58.3rem;
+  height: 17.6rem;
+  background-color: #eadcdc;
+  margin-top: -4px;
+  border-radius: 1%;
+  border: 1px solid #dcd6d6;
+}
+
 .pop {
   width: 54px;
   height: 54px;
@@ -145,6 +154,15 @@ header {
   padding: 15px 32px;
 }
 
+.btn2 {
+  background-color: #dad1d1;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  padding: 15px 32px;
+}
+
 .pt {
   font-size: 10px;
   text-align: right;
@@ -176,6 +194,16 @@ h3 {
   justify-content: space-between;
 }
 
+.senam1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .bt {
+  padding-right: 2%;
+}
+
+.btp {
   padding-right: 2%;
 }
