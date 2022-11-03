@@ -88,7 +88,7 @@ span {
   width: 26.7rem;
   border: 1px solid #cfcaca;
   border-radius: 2%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 a {
@@ -102,6 +102,7 @@ a {
   font-size: large;
   background-color: #cbc3c3;
   padding-left: 2%;
+  margin-bottom: 2%;
 }
 
 hr {
@@ -241,4 +242,8 @@ h3 {
   background-color: #383636;
   width: 101%;
   height: 20vh;
+}
+
+p {
+  margin-left: 1%;
 }
