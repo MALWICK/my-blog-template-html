@@ -1,17 +1,19 @@
 body {
   font-family: Verdana, Tahoma, sans-serif;
-  background-color: #fbf6f6;
-  padding: -6px;
-  margin-left: 12%;
-  margin-right: 14%;
+  background-color: #fec8c8;
+  display: grid;
+  height: 150vh;
+  width: 99%;
 }
 
 .container {
-  background-color: #fff;
-  width: 95%;
-  height: 119vh;
+  background-color: rgb(215, 31, 31);
+  width: 70%;
   display: grid;
   grid-template-columns: auto auto;
+  float: left;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 span {
@@ -75,7 +77,8 @@ span {
 
 .vert {
   display: grid;
-  padding-bottom: 40%;
+  padding-bottom: 2%;
+  padding-right: 10%;
 }
 
 .av {
@@ -209,7 +212,7 @@ h3 {
 }
 
 .fb1 {
-  background: #191818;
+  background: #545353;
   color: white;
   border: 1px solid #191818;
   width: 7%;
@@ -226,4 +229,16 @@ h3 {
   padding: 0.2rem;
   height: 4vh;
   font-size: large;
+}
+
+.fbutton {
+  margin-bottom: 3%;
+  margin-left: 2%;
+}
+
+.frame {
+  padding-top: 2%;
+  background-color: rgb(56, 54, 54);
+  width: 101%;
+  height: 20vh;
 }
