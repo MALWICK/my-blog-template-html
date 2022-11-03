@@ -1,13 +1,13 @@
 body {
   font-family: Verdana, Tahoma, sans-serif;
-  background-color: #fec8c8;
+  background-color: #faf1f1;
   display: grid;
   height: 150vh;
   width: 99%;
 }
 
 .container {
-  background-color: rgb(215, 31, 31);
+  background-color: #e9e6e6;
   width: 70%;
   display: grid;
   grid-template-columns: auto auto;
@@ -238,7 +238,7 @@ h3 {
 
 .frame {
   padding-top: 2%;
-  background-color: rgb(56, 54, 54);
+  background-color: #383636;
   width: 101%;
   height: 20vh;
 }
