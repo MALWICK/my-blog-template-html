@@ -207,3 +207,23 @@ h3 {
 .btp {
   padding-right: 2%;
 }
+
+.fb1 {
+  background: #191818;
+  color: white;
+  border: 1px solid #191818;
+  width: 7%;
+  padding: 0.2rem;
+  height: 4vh;
+  font-size: large;
+}
+
+.fb2 {
+  color: white;
+  border: 1px solid #191818;
+  background: #191818;
+  width: 7%;
+  padding: 0.2rem;
+  height: 4vh;
+  font-size: large;
+}
